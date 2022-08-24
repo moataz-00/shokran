@@ -1,0 +1,614 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.c {
+
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+
+}
+
+.c ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+
+li a:hover {
+    color: #F3A202;
+}
+
+#about li {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+
+#about .o {
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+}
+
+#about li i {
+    color: #F3A202;
+}
+
+.q {
+    padding-left: 100px;
+}
+
+
+.nav-bar img {
+    width: 10%;
+    height: 50px;
+    left: 60px;
+    position: absolute;
+}
+
+.nav-bar {
+    border-bottom: 1px solid;
+    height: 60px;
+    box-shadow: 0px 3px 5px #888888;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#home img {
+    width: 95%;
+    height: 270px;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+#home {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0px 40px;
+}
+
+
+
+#home p {
+
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+
+#home p span {
+    color: rgba(32, 32, 32, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+
+}
+
+button {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+
+    background: #F3A202;
+}
+
+button:hover {
+    background: #0dcaf0;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+
+}
+
+.clients div {
+    width: 20%;
+    text-align: center;
+}
+
+.clients img {
+    width: 40%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+
+}
+
+.clients img:hover {
+    filter: grayscale(0);
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: "Jost", sans-serif;
+    color: #37517e;
+    text-align: center;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background: #ddd;
+    left: 700px;
+    top: 40px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 5px;
+    background: #F3A202;
+    top: 40px;
+    left: 740px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+#using div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#categories {
+    background-color: #f3f5fa;
+}
+
+#categories .content {
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+    justify-content: space-between;
+}
+
+.content div:hover {
+    width: 32%;
+    height: 220px;
+}
+
+.coffe span {
+    background-color: #F3A202;
+}
+
+.coffe {
+    transition: all 0.4s ease-in-out;
+    font-size: larger;
+    height: 200px;
+    width: 30%;
+    background: url("coffee.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+}
+
+.serrvice span {
+    background-color: #F3A202;
+}
+
+.serrvice {
+    text-align: center;
+    font-size: larger;
+    height: 200px;
+    transition: all 0.4s ease-in-out;
+    width: 30%;
+    background: url("service.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.transport span {
+    background-color: #F3A202;
+}
+
+.transport {
+    text-align: center;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    height: 200px;
+    width: 30%;
+    background: url("transport.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.beauty span {
+    background-color: #F3A202;
+}
+
+.beauty {
+    text-align: center;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    height: 200px;
+    width: 30%;
+    background: url("beauty.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.travel span {
+    background-color: #F3A202;
+}
+
+.travel {
+    text-align: center;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    height: 200px;
+    width: 30%;
+    background: url("travel.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.resturant span {
+    background-color: #F3A202;
+}
+
+.resturant {
+    text-align: center;
+    font-size: larger;
+    height: 200px;
+    transition: all 0.4s ease-in-out;
+    width: 30%;
+    background: url("resturant.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.education span {
+    background-color: #F3A202;
+}
+
+.education {
+    text-align: center;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    height: 200px;
+    width: 30%;
+    background: url("education.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.entertament span {
+    background-color: #F3A202;
+}
+
+.entertament {
+    text-align: center;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    height: 200px;
+    width: 30%;
+    background: url("entertainment.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.medical span {
+    background-color: #F3A202;
+}
+
+.medical {
+    text-align: center;
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    height: 200px;
+    width: 30%;
+    background: url("medical.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#brands {
+    text-align: center;
+    background-color: #f3f5fa;
+}
+
+#brands div {
+
+    padding: 0px 80px;
+}
+
+.con-brands {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contact {
+    text-align: center;
+}
+
+.con-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.form {
+    width: 50%;
+    border-color: #F3A202;
+    border-width: 3px;
+    height: 270px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgb(249, 249, 250);
+    border-style: solid;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #37517e;
+    position: relative;
+    padding-bottom: 12px;
+    padding-left: 50px;
+}
+
+.social p {
+    padding: 0px 50px;
+}
+
+.social-link i {
+    color: #F3A202;
+    font-size: 25px;
+    padding-left: 40px;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #37517e;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    color: #ddd;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    10% {
+        bottom: -10px;
+        ;
+    }
+
+    25% {
+        bottom: -50px;
+    }
+
+    50% {
+        bottom: -100px;
+    }
+
+    75% {
+        bottom: -10px;
+        ;
+    }
+}
+
+@media(max-width:920px) {
+    .nav-bar {
+        height: 145px;
+    }
+
+    .nav-bar img {
+        width: 29%;
+        height: 55px;
+        left: 56px;
+        top: 30px;
+        position: absolute;
+    }
+
+    .c {
+
+        text-align: right;
+        position: absolute;
+        right: 20px;
+
+    }
+
+    .c ul {
+        display: block;
+
+    }
+
+    .c {
+        text-align: right;
+        position: absolute;
+        right: 20px;
+    }
+
+    #home img {
+        width: 150%;
+
+        height: 150px;
+        padding-top: 100px;
+    }
+
+    #home p {
+        margin: 7px 0 10px 0;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 37px;
+        color: rgb(0, 0, 0);
+        padding-top: 100px;
+    }
+
+    h2::before {
+        left: 90px;
+    }
+
+    h2::after {
+        left: 135px;
+    }
+
+    #using div {
+        display: block;
+        padding: 0px 0px;
+    }
+
+    #using div img {
+        width: 100%;
+    }
+
+    .q {
+        padding-left: 0px;
+    }
+
+    #about .o {
+        display: block;
+        padding: 0px 0px;
+
+    }
+
+    #categories .content {
+        height: 1844px;
+        display: block;
+        padding: 0px 0px;
+
+    }
+
+    .coffe {
+        width: 80%;
+    }
+
+    .content div:hover {
+        width: 100%;
+    }
+
+    .transport {
+        width: 80%;
+    }
+
+    .entertament {
+        width: 80%;
+    }
+
+    .medical {
+        width: 80%;
+    }
+
+    .travel {
+        width: 80%;
+    }
+
+    .resturant {
+        width: 80%;
+    }
+
+    .education {
+        width: 80%;
+    }
+
+    .beauty {
+        width: 80%;
+    }
+
+    .serrvice {
+        width: 80%;
+    }
+
+
+    #brands div {
+        padding: 0px 0px;
+    }
+
+    .con-brands {
+        display: block;
+    }
+
+    #contact div img {
+        width: 100%;
+    }
+
+    .con-contact {
+         display: block; 
+        padding: 0px 0px; 
+    }
+    .form{
+        width: 100%;
+    }
+    .footer {
+       
+         display: block; 
+        padding: 20px 30px;
+        
+    }
+
+
+
+
+
+
+
+}
